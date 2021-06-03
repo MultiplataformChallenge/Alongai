@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF22D56E2666779000B67CB5 /* AlongaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D56D2666779000B67CB5 /* AlongaiApp.swift */; };
+		EF22D5722666779100B67CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF22D5712666779100B67CB5 /* Assets.xcassets */; };
+		EF22D5752666779100B67CB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF22D5742666779100B67CB5 /* Preview Assets.xcassets */; };
+		EF22D57A2666779100B67CB5 /* Alongai WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EF22D5792666779100B67CB5 /* Alongai WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF22D57F2666779100B67CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF22D57E2666779100B67CB5 /* Assets.xcassets */; };
+		EF22D5862666779100B67CB5 /* Alongai WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF22D5852666779100B67CB5 /* Alongai WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF22D58B2666779100B67CB5 /* AlongaiAppWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D58A2666779100B67CB5 /* AlongaiAppWatch.swift */; };
+		EF22D58F2666779100B67CB5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D58E2666779100B67CB5 /* NotificationController.swift */; };
+		EF22D5912666779100B67CB5 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5902666779100B67CB5 /* NotificationView.swift */; };
+		EF22D5932666779100B67CB5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5922666779100B67CB5 /* ComplicationController.swift */; };
+		EF22D5952666779200B67CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF22D5942666779200B67CB5 /* Assets.xcassets */; };
+		EF22D5982666779200B67CB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF22D5972666779200B67CB5 /* Preview Assets.xcassets */; };
+		EF22D5AB2666786600B67CB5 /* InitialViewIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5AA2666786600B67CB5 /* InitialViewIOS.swift */; };
+		EF22D5AD2666788A00B67CB5 /* ExerciseiOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5AC2666788A00B67CB5 /* ExerciseiOSView.swift */; };
+		EF22D5AF2666789600B67CB5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5AE2666789600B67CB5 /* InfoView.swift */; };
+		EF22D5B22666795A00B67CB5 /* InitialViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5B12666795A00B67CB5 /* InitialViewWatch.swift */; };
+		EF22D5B42666796F00B67CB5 /* ExerciseViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5B32666796F00B67CB5 /* ExerciseViewWatch.swift */; };
+		EF22D5B62666798C00B67CB5 /* ConfigExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5B52666798C00B67CB5 /* ConfigExerciseView.swift */; };
+		EF22D5B9266679CF00B67CB5 /* ExerciseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5B8266679CF00B67CB5 /* ExerciseRepository.swift */; };
+		EF22D5BC266679F000B67CB5 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5BB266679F000B67CB5 /* ColorExtension.swift */; };
+		EF22D5BE26667A0800B67CB5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5BD26667A0800B67CB5 /* NotificationManager.swift */; };
+		EF22D5C026667A2200B67CB5 /* ExerciseData.json in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5BF26667A2200B67CB5 /* ExerciseData.json */; };
+		EF22D5C326667A5200B67CB5 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5C226667A5100B67CB5 /* CoreDataStack.swift */; };
+		EF22D5C526667A6800B67CB5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5C426667A6800B67CB5 /* Persistence.swift */; };
+		EF22D5C826667AAA00B67CB5 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5C726667AAA00B67CB5 /* ExerciseModel.swift */; };
+		EF22D5CA26667AC900B67CB5 /* ExerciseViewModelGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5C926667AC900B67CB5 /* ExerciseViewModelGeneral.swift */; };
+		EF22D5CC26667AE600B67CB5 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5CB26667AE600B67CB5 /* CategoryModel.swift */; };
+		EF22D5D126667B4700B67CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D026667B4700B67CB5 /* ContentView.swift */; };
+		EF22D5D326667B5700B67CB5 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D226667B5700B67CB5 /* CardModifier.swift */; };
+		EF22D5D526667B6600B67CB5 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D426667B6600B67CB5 /* CircleButton.swift */; };
+		EF22D5D726667B7400B67CB5 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D626667B7400B67CB5 /* TimerView.swift */; };
+		EF22D5D926667B8600B67CB5 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D826667B8600B67CB5 /* CharacterView.swift */; };
+		EF22D5DB26667B9500B67CB5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5DA26667B9500B67CB5 /* TabBar.swift */; };
+		EF22D5DE26667BE000B67CB5 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5DD26667BE000B67CB5 /* InitialView.swift */; };
+		EF22D5E026667BEA00B67CB5 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5DF26667BEA00B67CB5 /* InitialViewModel.swift */; };
+		EF22D5E326667C4100B67CB5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5E226667C4100B67CB5 /* SettingsView.swift */; };
+		EF22D5E526667C5000B67CB5 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5E426667C5000B67CB5 /* SettingsViewModel.swift */; };
+		EF22D5E726667C6000B67CB5 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5E626667C6000B67CB5 /* NotificationCell.swift */; };
+		EF22D5E926667C6E00B67CB5 /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5E826667C6E00B67CB5 /* NameCell.swift */; };
+		EF22D5EB26667C7F00B67CB5 /* JourneyPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5EA26667C7F00B67CB5 /* JourneyPickerCell.swift */; };
+		EF22D5EE26667CCB00B67CB5 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5ED26667CCB00B67CB5 /* ExerciseView.swift */; };
+		EF22D5F026667CD900B67CB5 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5EF26667CD900B67CB5 /* ExerciseViewModel.swift */; };
+		EF22D5F226667CEA00B67CB5 /* AdjustExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5F126667CEA00B67CB5 /* AdjustExerciseViewModel.swift */; };
+		EF22D5F326667D2200B67CB5 /* InitialViewIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5AA2666786600B67CB5 /* InitialViewIOS.swift */; };
+		EF22D5F626667D3000B67CB5 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5ED26667CCB00B67CB5 /* ExerciseView.swift */; };
+		EF22D5F726667D3300B67CB5 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5EF26667CD900B67CB5 /* ExerciseViewModel.swift */; };
+		EF22D5F826667D3600B67CB5 /* AdjustExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5F126667CEA00B67CB5 /* AdjustExerciseViewModel.swift */; };
+		EF22D5FA26667D3D00B67CB5 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5E426667C5000B67CB5 /* SettingsViewModel.swift */; };
+		EF22D5FB26667D4000B67CB5 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5E626667C6000B67CB5 /* NotificationCell.swift */; };
+		EF22D5FC26667D4300B67CB5 /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5E826667C6E00B67CB5 /* NameCell.swift */; };
+		EF22D5FE26667D4A00B67CB5 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5DD26667BE000B67CB5 /* InitialView.swift */; };
+		EF22D5FF26667D4E00B67CB5 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5DF26667BEA00B67CB5 /* InitialViewModel.swift */; };
+		EF22D60026667D5200B67CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D026667B4700B67CB5 /* ContentView.swift */; };
+		EF22D60126667D5500B67CB5 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D226667B5700B67CB5 /* CardModifier.swift */; };
+		EF22D60226667D5800B67CB5 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D426667B6600B67CB5 /* CircleButton.swift */; };
+		EF22D60326667D5B00B67CB5 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D626667B7400B67CB5 /* TimerView.swift */; };
+		EF22D60426667D5E00B67CB5 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5D826667B8600B67CB5 /* CharacterView.swift */; };
+		EF22D60526667D6100B67CB5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5DA26667B9500B67CB5 /* TabBar.swift */; };
+		EF22D60626667D6F00B67CB5 /* AlongaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D56D2666779000B67CB5 /* AlongaiApp.swift */; };
+		EF22D60726667D7300B67CB5 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5C726667AAA00B67CB5 /* ExerciseModel.swift */; };
+		EF22D60826667D7600B67CB5 /* ExerciseViewModelGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5C926667AC900B67CB5 /* ExerciseViewModelGeneral.swift */; };
+		EF22D60926667D7900B67CB5 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5CB26667AE600B67CB5 /* CategoryModel.swift */; };
+		EF22D60A26667D8000B67CB5 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5BB266679F000B67CB5 /* ColorExtension.swift */; };
+		EF22D60B26667D8300B67CB5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5BD26667A0800B67CB5 /* NotificationManager.swift */; };
+		EF22D60C26667D8600B67CB5 /* ExerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = EF22D5BF26667A2200B67CB5 /* ExerciseData.json */; };
+		EF22D60D26667DAD00B67CB5 /* ExerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = EF22D5BF26667A2200B67CB5 /* ExerciseData.json */; };
+		EF22D60F26667F5600B67CB5 /* InitialViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5B12666795A00B67CB5 /* InitialViewWatch.swift */; };
+		EF22D61026667F5900B67CB5 /* ExerciseViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5B32666796F00B67CB5 /* ExerciseViewWatch.swift */; };
+		EF22D61126667F5C00B67CB5 /* ConfigExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22D5B52666798C00B67CB5 /* ConfigExerciseView.swift */; };
+		EF22D6132667A47000B67CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF22D5712666779100B67CB5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF22D57B2666779100B67CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF22D5622666779000B67CB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF22D5782666779100B67CB5;
+			remoteInfo = "Alongai WatchKit App";
+		};
+		EF22D5872666779100B67CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF22D5622666779000B67CB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF22D5842666779100B67CB5;
+			remoteInfo = "Alongai WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF22D5A02666779200B67CB5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EF22D5862666779100B67CB5 /* Alongai WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22D5A42666779200B67CB5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EF22D57A2666779100B67CB5 /* Alongai WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF22D56A2666779000B67CB5 /* Alongai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alongai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF22D56D2666779000B67CB5 /* AlongaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlongaiApp.swift; sourceTree = "<group>"; };
+		EF22D5712666779100B67CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF22D5742666779100B67CB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF22D5762666779100B67CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF22D5792666779100B67CB5 /* Alongai WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alongai WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF22D57E2666779100B67CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF22D5802666779100B67CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF22D5852666779100B67CB5 /* Alongai WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Alongai WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF22D58A2666779100B67CB5 /* AlongaiAppWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlongaiAppWatch.swift; sourceTree = "<group>"; };
+		EF22D58E2666779100B67CB5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EF22D5902666779100B67CB5 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		EF22D5922666779100B67CB5 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EF22D5942666779200B67CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF22D5972666779200B67CB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF22D5992666779200B67CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF22D59A2666779200B67CB5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EF22D5AA2666786600B67CB5 /* InitialViewIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewIOS.swift; sourceTree = "<group>"; };
+		EF22D5AC2666788A00B67CB5 /* ExerciseiOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseiOSView.swift; sourceTree = "<group>"; };
+		EF22D5AE2666789600B67CB5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		EF22D5B12666795A00B67CB5 /* InitialViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewWatch.swift; sourceTree = "<group>"; };
+		EF22D5B32666796F00B67CB5 /* ExerciseViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewWatch.swift; sourceTree = "<group>"; };
+		EF22D5B52666798C00B67CB5 /* ConfigExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigExerciseView.swift; sourceTree = "<group>"; };
+		EF22D5B8266679CF00B67CB5 /* ExerciseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRepository.swift; sourceTree = "<group>"; };
+		EF22D5BB266679F000B67CB5 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		EF22D5BD26667A0800B67CB5 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		EF22D5BF26667A2200B67CB5 /* ExerciseData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExerciseData.json; sourceTree = "<group>"; };
+		EF22D5C226667A5100B67CB5 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		EF22D5C426667A6800B67CB5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EF22D5C726667AAA00B67CB5 /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		EF22D5C926667AC900B67CB5 /* ExerciseViewModelGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModelGeneral.swift; sourceTree = "<group>"; };
+		EF22D5CB26667AE600B67CB5 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		EF22D5D026667B4700B67CB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF22D5D226667B5700B67CB5 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		EF22D5D426667B6600B67CB5 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		EF22D5D626667B7400B67CB5 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		EF22D5D826667B8600B67CB5 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		EF22D5DA26667B9500B67CB5 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		EF22D5DD26667BE000B67CB5 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		EF22D5DF26667BEA00B67CB5 /* InitialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
+		EF22D5E226667C4100B67CB5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EF22D5E426667C5000B67CB5 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		EF22D5E626667C6000B67CB5 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		EF22D5E826667C6E00B67CB5 /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		EF22D5EA26667C7F00B67CB5 /* JourneyPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyPickerCell.swift; sourceTree = "<group>"; };
+		EF22D5ED26667CCB00B67CB5 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		EF22D5EF26667CD900B67CB5 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		EF22D5F126667CEA00B67CB5 /* AdjustExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustExerciseViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF22D5672666779000B67CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22D5822666779100B67CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF22D5612666779000B67CB5 = {
+			isa = PBXGroup;
+			children = (
+				EF22D5A82666784000B67CB5 /* IOS */,
+				EF22D56C2666779000B67CB5 /* Alongai */,
+				EF22D57D2666779100B67CB5 /* Alongai WatchKit App */,
+				EF22D5892666779100B67CB5 /* Alongai WatchKit Extension */,
+				EF22D56B2666779000B67CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF22D56B2666779000B67CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D56A2666779000B67CB5 /* Alongai.app */,
+				EF22D5792666779100B67CB5 /* Alongai WatchKit App.app */,
+				EF22D5852666779100B67CB5 /* Alongai WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF22D56C2666779000B67CB5 /* Alongai */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5CE26667B2500B67CB5 /* Views */,
+				EF22D5CD26667AFA00B67CB5 /* System */,
+				EF22D5C626667A9B00B67CB5 /* Model */,
+				EF22D5C126667A4300B67CB5 /* Persistence */,
+				EF22D5BA266679DD00B67CB5 /* Utils */,
+				EF22D5B7266679BE00B67CB5 /* Repository */,
+				EF22D5712666779100B67CB5 /* Assets.xcassets */,
+				EF22D5762666779100B67CB5 /* Info.plist */,
+				EF22D5732666779100B67CB5 /* Preview Content */,
+			);
+			path = Alongai;
+			sourceTree = "<group>";
+		};
+		EF22D5732666779100B67CB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5742666779100B67CB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF22D57D2666779100B67CB5 /* Alongai WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D57E2666779100B67CB5 /* Assets.xcassets */,
+				EF22D5802666779100B67CB5 /* Info.plist */,
+			);
+			path = "Alongai WatchKit App";
+			sourceTree = "<group>";
+		};
+		EF22D5892666779100B67CB5 /* Alongai WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5B02666791300B67CB5 /* Views */,
+				EF22D58A2666779100B67CB5 /* AlongaiAppWatch.swift */,
+				EF22D58E2666779100B67CB5 /* NotificationController.swift */,
+				EF22D5902666779100B67CB5 /* NotificationView.swift */,
+				EF22D5922666779100B67CB5 /* ComplicationController.swift */,
+				EF22D5942666779200B67CB5 /* Assets.xcassets */,
+				EF22D5992666779200B67CB5 /* Info.plist */,
+				EF22D59A2666779200B67CB5 /* PushNotificationPayload.apns */,
+				EF22D5962666779200B67CB5 /* Preview Content */,
+			);
+			path = "Alongai WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EF22D5962666779200B67CB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5972666779200B67CB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF22D5A82666784000B67CB5 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5A92666784B00B67CB5 /* Views */,
+			);
+			path = IOS;
+			sourceTree = "<group>";
+		};
+		EF22D5A92666784B00B67CB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5AA2666786600B67CB5 /* InitialViewIOS.swift */,
+				EF22D5AC2666788A00B67CB5 /* ExerciseiOSView.swift */,
+				EF22D5AE2666789600B67CB5 /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF22D5B02666791300B67CB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5B12666795A00B67CB5 /* InitialViewWatch.swift */,
+				EF22D5B32666796F00B67CB5 /* ExerciseViewWatch.swift */,
+				EF22D5B52666798C00B67CB5 /* ConfigExerciseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF22D5B7266679BE00B67CB5 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5B8266679CF00B67CB5 /* ExerciseRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		EF22D5BA266679DD00B67CB5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5BB266679F000B67CB5 /* ColorExtension.swift */,
+				EF22D5BD26667A0800B67CB5 /* NotificationManager.swift */,
+				EF22D5BF26667A2200B67CB5 /* ExerciseData.json */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EF22D5C126667A4300B67CB5 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5C226667A5100B67CB5 /* CoreDataStack.swift */,
+				EF22D5C426667A6800B67CB5 /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		EF22D5C626667A9B00B67CB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5C726667AAA00B67CB5 /* ExerciseModel.swift */,
+				EF22D5C926667AC900B67CB5 /* ExerciseViewModelGeneral.swift */,
+				EF22D5CB26667AE600B67CB5 /* CategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF22D5CD26667AFA00B67CB5 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D56D2666779000B67CB5 /* AlongaiApp.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		EF22D5CE26667B2500B67CB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5EC26667CB500B67CB5 /* Exercise */,
+				EF22D5E126667C3400B67CB5 /* Settings */,
+				EF22D5DC26667BCB00B67CB5 /* Initial */,
+				EF22D5CF26667B2E00B67CB5 /* SharedComponents */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF22D5CF26667B2E00B67CB5 /* SharedComponents */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5D026667B4700B67CB5 /* ContentView.swift */,
+				EF22D5D226667B5700B67CB5 /* CardModifier.swift */,
+				EF22D5D426667B6600B67CB5 /* CircleButton.swift */,
+				EF22D5D626667B7400B67CB5 /* TimerView.swift */,
+				EF22D5D826667B8600B67CB5 /* CharacterView.swift */,
+				EF22D5DA26667B9500B67CB5 /* TabBar.swift */,
+			);
+			path = SharedComponents;
+			sourceTree = "<group>";
+		};
+		EF22D5DC26667BCB00B67CB5 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5DD26667BE000B67CB5 /* InitialView.swift */,
+				EF22D5DF26667BEA00B67CB5 /* InitialViewModel.swift */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		EF22D5E126667C3400B67CB5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5E226667C4100B67CB5 /* SettingsView.swift */,
+				EF22D5E426667C5000B67CB5 /* SettingsViewModel.swift */,
+				EF22D5E626667C6000B67CB5 /* NotificationCell.swift */,
+				EF22D5E826667C6E00B67CB5 /* NameCell.swift */,
+				EF22D5EA26667C7F00B67CB5 /* JourneyPickerCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EF22D5EC26667CB500B67CB5 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				EF22D5ED26667CCB00B67CB5 /* ExerciseView.swift */,
+				EF22D5EF26667CD900B67CB5 /* ExerciseViewModel.swift */,
+				EF22D5F126667CEA00B67CB5 /* AdjustExerciseViewModel.swift */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF22D5692666779000B67CB5 /* Alongai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF22D5A52666779200B67CB5 /* Build configuration list for PBXNativeTarget "Alongai" */;
+			buildPhases = (
+				EF22D5662666779000B67CB5 /* Sources */,
+				EF22D5672666779000B67CB5 /* Frameworks */,
+				EF22D5682666779000B67CB5 /* Resources */,
+				EF22D5A42666779200B67CB5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF22D57C2666779100B67CB5 /* PBXTargetDependency */,
+			);
+			name = Alongai;
+			productName = Alongai;
+			productReference = EF22D56A2666779000B67CB5 /* Alongai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF22D5782666779100B67CB5 /* Alongai WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF22D5A12666779200B67CB5 /* Build configuration list for PBXNativeTarget "Alongai WatchKit App" */;
+			buildPhases = (
+				EF22D5772666779100B67CB5 /* Resources */,
+				EF22D5A02666779200B67CB5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF22D5882666779100B67CB5 /* PBXTargetDependency */,
+			);
+			name = "Alongai WatchKit App";
+			productName = "Alongai WatchKit App";
+			productReference = EF22D5792666779100B67CB5 /* Alongai WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EF22D5842666779100B67CB5 /* Alongai WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF22D59D2666779200B67CB5 /* Build configuration list for PBXNativeTarget "Alongai WatchKit Extension" */;
+			buildPhases = (
+				EF22D5812666779100B67CB5 /* Sources */,
+				EF22D5822666779100B67CB5 /* Frameworks */,
+				EF22D5832666779100B67CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alongai WatchKit Extension";
+			productName = "Alongai WatchKit Extension";
+			productReference = EF22D5852666779100B67CB5 /* Alongai WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF22D5622666779000B67CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EF22D5692666779000B67CB5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					EF22D5782666779100B67CB5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					EF22D5842666779100B67CB5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = EF22D5652666779000B67CB5 /* Build configuration list for PBXProject "Alongai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF22D5612666779000B67CB5;
+			productRefGroup = EF22D56B2666779000B67CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF22D5692666779000B67CB5 /* Alongai */,
+				EF22D5782666779100B67CB5 /* Alongai WatchKit App */,
+				EF22D5842666779100B67CB5 /* Alongai WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF22D5682666779000B67CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF22D60D26667DAD00B67CB5 /* ExerciseData.json in Resources */,
+				EF22D5752666779100B67CB5 /* Preview Assets.xcassets in Resources */,
+				EF22D5722666779100B67CB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22D5772666779100B67CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF22D6132667A47000B67CB5 /* Assets.xcassets in Resources */,
+				EF22D57F2666779100B67CB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22D5832666779100B67CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF22D60C26667D8600B67CB5 /* ExerciseData.json in Resources */,
+				EF22D5982666779200B67CB5 /* Preview Assets.xcassets in Resources */,
+				EF22D5952666779200B67CB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF22D5662666779000B67CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF22D5D726667B7400B67CB5 /* TimerView.swift in Sources */,
+				EF22D5E326667C4100B67CB5 /* SettingsView.swift in Sources */,
+				EF22D5F026667CD900B67CB5 /* ExerciseViewModel.swift in Sources */,
+				EF22D5C526667A6800B67CB5 /* Persistence.swift in Sources */,
+				EF22D5E926667C6E00B67CB5 /* NameCell.swift in Sources */,
+				EF22D5D526667B6600B67CB5 /* CircleButton.swift in Sources */,
+				EF22D5D926667B8600B67CB5 /* CharacterView.swift in Sources */,
+				EF22D5AB2666786600B67CB5 /* InitialViewIOS.swift in Sources */,
+				EF22D5AD2666788A00B67CB5 /* ExerciseiOSView.swift in Sources */,
+				EF22D5E026667BEA00B67CB5 /* InitialViewModel.swift in Sources */,
+				EF22D5AF2666789600B67CB5 /* InfoView.swift in Sources */,
+				EF22D56E2666779000B67CB5 /* AlongaiApp.swift in Sources */,
+				EF22D61026667F5900B67CB5 /* ExerciseViewWatch.swift in Sources */,
+				EF22D5EE26667CCB00B67CB5 /* ExerciseView.swift in Sources */,
+				EF22D5D326667B5700B67CB5 /* CardModifier.swift in Sources */,
+				EF22D5C326667A5200B67CB5 /* CoreDataStack.swift in Sources */,
+				EF22D5C826667AAA00B67CB5 /* ExerciseModel.swift in Sources */,
+				EF22D5DE26667BE000B67CB5 /* InitialView.swift in Sources */,
+				EF22D5BC266679F000B67CB5 /* ColorExtension.swift in Sources */,
+				EF22D5BE26667A0800B67CB5 /* NotificationManager.swift in Sources */,
+				EF22D60F26667F5600B67CB5 /* InitialViewWatch.swift in Sources */,
+				EF22D5C026667A2200B67CB5 /* ExerciseData.json in Sources */,
+				EF22D5D126667B4700B67CB5 /* ContentView.swift in Sources */,
+				EF22D5CC26667AE600B67CB5 /* CategoryModel.swift in Sources */,
+				EF22D5CA26667AC900B67CB5 /* ExerciseViewModelGeneral.swift in Sources */,
+				EF22D5B9266679CF00B67CB5 /* ExerciseRepository.swift in Sources */,
+				EF22D5EB26667C7F00B67CB5 /* JourneyPickerCell.swift in Sources */,
+				EF22D5DB26667B9500B67CB5 /* TabBar.swift in Sources */,
+				EF22D61126667F5C00B67CB5 /* ConfigExerciseView.swift in Sources */,
+				EF22D5E726667C6000B67CB5 /* NotificationCell.swift in Sources */,
+				EF22D5E526667C5000B67CB5 /* SettingsViewModel.swift in Sources */,
+				EF22D5F226667CEA00B67CB5 /* AdjustExerciseViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22D5812666779100B67CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF22D60926667D7900B67CB5 /* CategoryModel.swift in Sources */,
+				EF22D60526667D6100B67CB5 /* TabBar.swift in Sources */,
+				EF22D5FC26667D4300B67CB5 /* NameCell.swift in Sources */,
+				EF22D5F626667D3000B67CB5 /* ExerciseView.swift in Sources */,
+				EF22D60726667D7300B67CB5 /* ExerciseModel.swift in Sources */,
+				EF22D60226667D5800B67CB5 /* CircleButton.swift in Sources */,
+				EF22D60426667D5E00B67CB5 /* CharacterView.swift in Sources */,
+				EF22D58F2666779100B67CB5 /* NotificationController.swift in Sources */,
+				EF22D60A26667D8000B67CB5 /* ColorExtension.swift in Sources */,
+				EF22D5B42666796F00B67CB5 /* ExerciseViewWatch.swift in Sources */,
+				EF22D5F826667D3600B67CB5 /* AdjustExerciseViewModel.swift in Sources */,
+				EF22D5FF26667D4E00B67CB5 /* InitialViewModel.swift in Sources */,
+				EF22D60B26667D8300B67CB5 /* NotificationManager.swift in Sources */,
+				EF22D60326667D5B00B67CB5 /* TimerView.swift in Sources */,
+				EF22D5B22666795A00B67CB5 /* InitialViewWatch.swift in Sources */,
+				EF22D5F726667D3300B67CB5 /* ExerciseViewModel.swift in Sources */,
+				EF22D60826667D7600B67CB5 /* ExerciseViewModelGeneral.swift in Sources */,
+				EF22D60026667D5200B67CB5 /* ContentView.swift in Sources */,
+				EF22D5B62666798C00B67CB5 /* ConfigExerciseView.swift in Sources */,
+				EF22D60126667D5500B67CB5 /* CardModifier.swift in Sources */,
+				EF22D5FE26667D4A00B67CB5 /* InitialView.swift in Sources */,
+				EF22D5932666779100B67CB5 /* ComplicationController.swift in Sources */,
+				EF22D58B2666779100B67CB5 /* AlongaiAppWatch.swift in Sources */,
+				EF22D60626667D6F00B67CB5 /* AlongaiApp.swift in Sources */,
+				EF22D5F326667D2200B67CB5 /* InitialViewIOS.swift in Sources */,
+				EF22D5912666779100B67CB5 /* NotificationView.swift in Sources */,
+				EF22D5FA26667D3D00B67CB5 /* SettingsViewModel.swift in Sources */,
+				EF22D5FB26667D4000B67CB5 /* NotificationCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF22D57C2666779100B67CB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF22D5782666779100B67CB5 /* Alongai WatchKit App */;
+			targetProxy = EF22D57B2666779100B67CB5 /* PBXContainerItemProxy */;
+		};
+		EF22D5882666779100B67CB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF22D5842666779100B67CB5 /* Alongai WatchKit Extension */;
+			targetProxy = EF22D5872666779100B67CB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF22D59B2666779200B67CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF22D59C2666779200B67CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EF22D59E2666779200B67CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"Alongai WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UZ6YPHV3D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Alongai WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JhennyferOliveira.Alongai.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		EF22D59F2666779200B67CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"Alongai WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UZ6YPHV3D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Alongai WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JhennyferOliveira.Alongai.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		EF22D5A22666779200B67CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 2UZ6YPHV3D;
+				IBSC_MODULE = Alongai_WatchKit_Extension;
+				INFOPLIST_FILE = "Alongai WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JhennyferOliveira.Alongai.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		EF22D5A32666779200B67CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 2UZ6YPHV3D;
+				IBSC_MODULE = Alongai_WatchKit_Extension;
+				INFOPLIST_FILE = "Alongai WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JhennyferOliveira.Alongai.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		EF22D5A62666779200B67CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"Alongai/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UZ6YPHV3D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Alongai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JhennyferOliveira.Alongai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF22D5A72666779200B67CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"Alongai/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UZ6YPHV3D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Alongai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JhennyferOliveira.Alongai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF22D5652666779000B67CB5 /* Build configuration list for PBXProject "Alongai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22D59B2666779200B67CB5 /* Debug */,
+				EF22D59C2666779200B67CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF22D59D2666779200B67CB5 /* Build configuration list for PBXNativeTarget "Alongai WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22D59E2666779200B67CB5 /* Debug */,
+				EF22D59F2666779200B67CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF22D5A12666779200B67CB5 /* Build configuration list for PBXNativeTarget "Alongai WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22D5A22666779200B67CB5 /* Debug */,
+				EF22D5A32666779200B67CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF22D5A52666779200B67CB5 /* Build configuration list for PBXNativeTarget "Alongai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22D5A62666779200B67CB5 /* Debug */,
+				EF22D5A72666779200B67CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF22D5622666779000B67CB5 /* Project object */;
+}

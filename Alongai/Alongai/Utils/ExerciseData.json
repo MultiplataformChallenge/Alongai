@@ -1,0 +1,201 @@
+[ {
+      "identifier": 1,
+      "name": "Rotação dos ombros para dentro",
+      "category": "braço",
+      "image": "rotacaoDosOmbrosDentro",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Em pé, com a coluna reta, rotacionar os dois ombros de dentro para fora."
+    },
+    {
+      "identifier": 2,
+      "name": "Rotação dos ombros para fora",
+      "category": "braço",
+      "image": "rotacaoDosOmbrosFora",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Em pé, com a coluna reta, rotacionar os dois ombros de fora para dentro."
+    },
+    {
+      "identifier": 3,
+      "name": "Alongamento de pescoço para cima",
+      "category": "cabeça",
+      "image": "alongamentoPescocoCima",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": ""
+    },
+    {
+      "identifier": 4,
+      "name": "Alongamento de pescoço para baixo",
+      "category": "cabeça",
+      "image": "alongamentoPescocoBaixo",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": ""
+    },
+    {
+      "identifier": 5,
+      "name": "Alongamento de pescoço para esquerda",
+      "category": "cabeça",
+      "image": "alongamentoPescocoEsquerda",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": ""
+    },
+    {
+      "identifier": 6,
+      "name": "Alongamento de pescoço para direita",
+      "category": "cabeça",
+      "image": "alongamentoPescocoDireita",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": ""
+    },
+    {
+      "identifier": 7,
+      "name": "Alongamento dos pulsos braço esquerdo mão para cima",
+      "category": "braço",
+      "image": "alongamentoPulsoEsquerdaCima",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Esticar o braço esquerdo para frente com a palma da mão aberta na vertical com os dedos para cima, usa a outra mão para puxar os dedos para trás em direção ao corpo."
+    },
+    {
+      "identifier": 8,
+      "name": "Alongamento dos pulsos braço direito mão para cima",
+      "category": "braço",
+      "image": "alongamentoPulsoDireitaCima",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Esticar o braço direito para frente com a palma da mão aberta na vertical com os dedos para cima, usa a outra mão para puxar os dedos para trás em direção ao corpo."
+    },
+    {
+      "identifier": 9,
+      "name": "Alongamento da coluna e posterior da coxa",
+      "category": "coluna",
+      "image": "alongamentoColunaEPosteriorCoxa",
+      "duration": 25,
+      "timesOfRepetition": 2,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Soltar o peso do corpo, aproximando os braços à ponta dos pés."
+    },
+    {
+      "identifier": 10,
+      "name": "Alongamento peitoral",
+      "category": "peitoral",
+      "image": "alongamentoPeitoral",
+      "duration": 25,
+      "timesOfRepetition": 2,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Entrelace os dedos das mãos atrás do seu corpo, estenda os cotovelos e eleve os braços o máximo possível. Relaxe os ombros e mantenha a respiração ativa. Mantenha o olhar à frente e contraia o abdomen."
+    },
+    {
+      "identifier": 11,
+      "name": "Alongamento panturrilha esquerda",
+      "category": "perna",
+      "image": "alongamentoPanturrilhaEsquerda",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Apoiar a ponta do pé direito na parede com o calcanhar no chão, o pé esquerdo mais atrás, ir e voltar com o quadril para frente devagar, forçando a panturrilha esquerda."
+    },
+    {
+      "identifier": 1,
+      "name": "Alongamento panturrilha direita",
+      "category": "perna",
+      "image": "alongamentoPanturrilhaDireita",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Apoiar a ponta do pé esquerdo na parede com o calcanhar no chão, o pé direito mais atrás, ir e voltar com o quadril para frente devagar, forçando a panturrilha direita."
+    },
+    {
+      "identifier": 13,
+      "name": "Alongamento frontal coxa esquerda para frente",
+      "category": "perna",
+      "image": "alongamentoFrontalCoxaEsquerdaFrente",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Levantar a perna esquerda em direção ao peito, segurar na canela e puxar em direção ao corpo."
+    },
+    {
+      "identifier": 14,
+      "name": "Alongamento frontal coxa direita para frente",
+      "category": "perna",
+      "image": "alongamentoFrontalCoxaDireitaFrente",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Levantar a perna direita em direção ao peito, segurar na canela e puxar em direção ao corpo."
+    },
+    {
+      "identifier": 15,
+      "name": "Alongamento frontal coxa esquerda para trás",
+      "category": "perna",
+      "image": "alongamentoFrontalCoxaEsquerdaTras",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": ""
+    },
+    {
+      "identifier": 16,
+      "name": "Alongamento frontal coxa direita para trás",
+      "category": "perna",
+      "image": "alongamentoFrontalCoxaDireitaTras",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": ""
+    },
+    {
+      "identifier": 17,
+      "name": "Alongamento dos pulsos braço esquerdo mão para baixo",
+      "category": "braço",
+      "image": "alongamentoPulsoEsquerdaBaixo",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Esticar o braço esquerdo para frente com a palma da mão aberta na vertical com os dedos para baixo, usa a outra mão para puxar os dedos para trás em direção ao corpo."
+    },
+    {
+      "identifier": 18,
+      "name": "Alongamento dos pulsos braço direito mão para baixo",
+      "category": "braço",
+      "image": "alongamentoPulsoDireitaBaixo",
+      "duration": 25,
+      "timesOfRepetition": 1,
+      "restTimeBetweenSameExercise": 5,
+      "restTimeBetweenDifferentExercises": 15,
+      "description": "Esticar o braço direito para frente com a palma da mão aberta na vertical com os dedos para baixo, usa a outra mão para puxar os dedos para trás em direção ao corpo."
+    }
+
+]
+
