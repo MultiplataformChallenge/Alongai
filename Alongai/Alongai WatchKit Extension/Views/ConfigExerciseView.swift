@@ -10,13 +10,29 @@ import SwiftUI
 struct ConfigExerciseView: View {
     @ObservedObject var viewModel: AdjustExerciseViewModel
     @Binding var rootIsActive: Bool
+    @State var isPlaying: Bool = false
+
     var body: some View {
         VStack(spacing: 8) {
             HStack {
                 VStack {
-                    CircleButton(imageName: "pause", size: 52, fontSize: 30, action: { viewModel.pause() }, hasImage: true)
-                    //                    .buttonStyle(BorderedButtonStyle(tint: .black))
-                    Text("Pausar")
+                    // pause
+                    Button(action: {
+                        viewModel.pause()
+                       self.isPlaying.toggle()
+                    }) {
+                        Image(systemName: self.isPlaying == true ? "play.fill" : "pause")
+                            .padding()
+                            .frame(width: 52, height: 52)
+                            .background(LinearGradient(gradient: Color.gradient, startPoint: .top, endPoint: .bottom))
+                            .clipShape(Circle())
+                            .font(Font.system(size: 30, weight: .black, design: .rounded))
+                            .foregroundColor(.white)
+                    }
+                    .frame(width: 52, height: 52)
+                    .padding()
+
+                    Text(self.isPlaying == true ? "Continuar" : "Pausar")
                         .font(.caption2)
                         .foregroundColor(.white)
                         .offset(y: -8)
