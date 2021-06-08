@@ -34,6 +34,7 @@ struct ExerciseiOSView: View {
     @State private var counter: CGFloat = 0
     
     // config exercise
+    @State var isPlaying: Bool = false
     //    @State private var pause = false
     //    @State private var finish = false
     //    @State private var back = false
@@ -100,8 +101,24 @@ struct ExerciseiOSView: View {
                             CircleButton(imageName: "backward.fill", size: 70, fontSize: 30, action: {adjustViewModel.back()}, hasImage: true)
                                 .frame(width: 60, height: 60)
                                 .offset(x: -32, y: 8)
-                            CircleButton(imageName: "pause", size: 70, fontSize: 38, action: {adjustViewModel.pause()}, hasImage: true)
-                                .padding(.top, 38)
+                            
+                            // pause
+                            Button(action: {
+                                adjustViewModel.pause()
+                               self.isPlaying.toggle()
+                            }) {
+                                Image(systemName: self.isPlaying == true ? "play.fill" : "pause")
+                                    .padding()
+                                    .frame(width: 70, height: 70)
+                                    .background(LinearGradient(gradient: Color.gradient, startPoint: .top, endPoint: .bottom))
+                                    .clipShape(Circle())
+                                    .font(Font.system(size: CGFloat(38), weight: .black, design: .rounded))
+                                    .foregroundColor(.white)
+                            }
+                            .frame(width: 70, height: 70)
+                            .padding()
+                            .padding(.top, 38)
+                            
                             CircleButton(imageName: "forward.fill", size: 70, fontSize: 30, action: {adjustViewModel.foward()}, hasImage: true)
                                 .frame(width: 60, height: 60)
                                 //                            .padding(.trailing, 32)
